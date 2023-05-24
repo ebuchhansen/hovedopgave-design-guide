@@ -1,6 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font: 400 15px "Roboto Condensed", sans-serif;
 }
 
-/* Farver */
+body {
+  background-color: #e0e0e0;
+}
+
+/* typografi */
+/* font til overskrifter */
+h1 {
+  font: 700 64px "Roboto Condensed", sans-serif;
+  color: #D27411;
+}
+
+h2 {
+  font: 700 32px "Montserrat", sans-serif;
+  color: #D27411;
+}
+
+.typo-box {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1/1/3/6;
+}
+
+.div2 {
+  grid-area: 3/1/9/2;
+}
+
+.div3 {
+  grid-area: 3/2/9/6;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  background-color: red;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: bisque;
+}
+.sidenav a a:hover {
+  color: aqua;
+}

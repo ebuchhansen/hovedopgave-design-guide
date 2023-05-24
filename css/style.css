@@ -30,56 +30,6 @@ h2 {
   color: #D27411;
 }
 
-.blue {
-  background-color: #1c2659;
-  height: 4rem;
-  border-style: solid;
-  border-color: #000000;
-  border-width: thin;
-  width: 4rem;
-  margin: auto;
-}
-
-.orange {
-  background-color: #D27411;
-  height: 4rem;
-  border-style: solid;
-  border-color: #000000;
-  border-width: thin;
-  width: 4rem;
-  margin: auto;
-}
-
-.white {
-  background-color: #FFFFFF;
-  height: 4rem;
-  border-style: solid;
-  border-color: #000000;
-  border-width: thin;
-  width: 4rem;
-  margin: auto;
-}
-
-.black {
-  background-color: #000000;
-  height: 4rem;
-  border-style: solid;
-  border-color: #000000;
-  border-width: thin;
-  width: 4rem;
-  margin: auto;
-}
-
-.hoverorange {
-  background-color: #DB9040;
-  height: 4rem;
-  border-style: solid;
-  border-color: #000000;
-  border-width: thin;
-  width: 4rem;
-  margin: auto;
-}
-
 header,
 main,
 nav {

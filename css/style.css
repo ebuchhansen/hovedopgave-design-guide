@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -16,4 +21,19 @@
 
 .div3 {
   grid-area: 3/2/9/6;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  background-color: red;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: bisque;
+}
+.sidenav a a:hover {
+  color: aqua;
 }

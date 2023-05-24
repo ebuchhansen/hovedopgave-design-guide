@@ -77,3 +77,33 @@ main {
   background-color: #DB9040;
   transition: 0.4s;
 }
+
+.footer-example {
+  width: 100%;
+  padding: 60px 30px;
+  background-color: #1c2659;
+  color: #FFFFFF;
+  display: flex;
+}
+.footer-example div {
+  text-align: center;
+}
+.footer-example div h3 {
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.footer-example .col-1 a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.footer-example .col-2 {
+  flex-grow: 2;
+}
+.footer-example .col-2 p {
+  margin-bottom: 10px;
+}
+.footer-example .col-3 p {
+  margin-bottom: 10px;
+}

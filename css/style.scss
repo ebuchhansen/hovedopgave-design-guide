@@ -10,12 +10,3 @@ $hoverorange: #DB9040;
 $black: #000000;
 $white: #FFFFFF;
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-header {
-    grid-column: span 5;
-}
-

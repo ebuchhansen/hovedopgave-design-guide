@@ -92,3 +92,37 @@ main {
         transition: 0.4s;
     }
 }
+
+.footer-example {
+    width: 100%;
+    padding: 60px 30px;
+    background-color: #1c2659;
+    color: #FFFFFF;
+    display: flex;
+    
+    div {
+        text-align: center;
+
+        h3 {
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+    }
+    .col-1 a{
+        display: block;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    .col-2 {
+        flex-grow: 2;
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    .col-3 p {
+        margin-bottom: 10px;
+    }
+}

@@ -9,7 +9,7 @@ body {
   background-color: #e0e0e0;
 }
 
-/* Farver */
+/* typografi */
 /* font til overskrifter */
 h1 {
   font: 700 64px "Roboto Condensed", sans-serif;
@@ -19,6 +19,11 @@ h1 {
 h2 {
   font: 700 32px "Montserrat", sans-serif;
   color: #D27411;
+}
+
+.typo-box {
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .parent {

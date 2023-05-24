@@ -1,6 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font: 400 15px "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+/* Farver */
+/* font til overskrifter */
+h1 {
+  font: 700 64px "Roboto Condensed", sans-serif;
+  color: #D27411;
+}
+
+h2 {
+  font: 700 32px "Montserrat", sans-serif;
+  color: #D27411;
 }
 
 .parent {

@@ -232,3 +232,45 @@ pre {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.dropbtn {
+    background-color: #D27411;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D27411;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #DB9040;
+    transition: 0.4s;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #DB9040;
+    transition: 0.4s;
+  }

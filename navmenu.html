@@ -36,43 +36,65 @@
 
         <h1 class="side-titel">Navigations menu</h1>
 
-        <div>
-            <ul>
-                <li>            
-                    <div class="dropdown">
-                        <button class="dropbtn">Forside</button>
+        <div class="nav-menu">
+            <div class="navbar">
+                <a href="#" class="menu-knap">Forside</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Faciliteter</p>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Faciliteter for alle</a>
+                        <a href="#">Faciliteter for medlemmer</a>
                     </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Faciliteter</button>
-                        <div class="dropdown-content">
-                            <a href="#">Faciliteter for alle</a>
-                            <a href="#">Faciliteter for medlemmer</a>
-                        </div>
+                </div> 
+                <a href="#" class="menu-knap">Kalender</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Om os</p> 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Vores værdier</a>
+                        <a href="#">Praktiske informationer</a>
                     </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Kalender</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Om os</button>
-                        <div class="dropdown-content">
-                            <a href="#">Vores værdier</a>
-                            <a href="#">Praktiske informationer</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button class="dropbtn">Bliv en del af os</button>
-                    </div>
-                </li>
-            </ul>
+                </div> 
+                <a href="#" class="menu-knap">Bliv en del af os</a>
+            </div>
         </div>
+
+        <p class="boks-space">Navigations menuen er til stede på alle siderne.</p>
+
+        <pre>
+&lt;div class="nav-menu"&gt;
+&lt;div class="navbar"&gt;
+&lt;a href="#" class="menu-knap">Forside&lt;/a&gt;
+&lt;div class="dropdown"&gt;
+&lt;button class="dropbtn"&gt;
+&lt;p&gt;Faciliteter&lt;/p&gt;
+&lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;div class="dropdown-content"&gt;
+&lt;a href="#"&gt;Faciliteter for alle&lt;/a&gt;
+&lt;a href="#"&gt;Faciliteter for medlemmer&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div>&gt;
+&lt;a href="#" class="menu-knap"&gt;Kalender&lt;/a&gt;
+&lt;div class="dropdown"&gt;
+&lt;button class="dropbtn"&gt;
+&lt;p&gt;Om os&lt;/p&gt;
+&lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;div class="dropdown-content"&gt;
+&lt;a href="#"&gt;Vores værdier&lt;/a&gt;
+&lt;a href="#"&gt;Praktiske informationer&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;a href="#" class="menu-knap"&gt;Bliv en del af os&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</pre>
 
     </main>
 </body>

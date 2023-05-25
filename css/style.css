@@ -31,6 +31,10 @@ h2 {
   color: #D27411;
 }
 
+p {
+  font: 400 15px "Roboto Condensed", sans-serif;
+}
+
 header,
 main,
 nav {
@@ -208,12 +212,15 @@ pre {
 }
 
 .dropbtn {
-  background-color: #D27411;
+  background-color: #1c2659;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+.dropbtn p {
+  font: 400 15px "Roboto Condensed", sans-serif;
 }
 
 .dropdown {
@@ -245,7 +252,7 @@ pre {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #DB9040;
+  color: #DB9040;
   transition: 0.4s;
 }
 
@@ -336,10 +343,25 @@ pre {
   background-color: #FFFFFF;
 }
 
-ul {
-  list-style-type: none;
-  overflow: hidden;
+.menu-knap {
+  background-color: #1c2659;
+  color: white;
+  padding: 16px 30px;
+  font-size: 16px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+  position: relative;
 }
-ul li a {
-  display: block;
+
+.menu-knap:hover {
+  color: #DB9040;
+}
+
+.navbar {
+  background-color: #1c2659;
+  width: 100%;
+  text-align: center;
 }

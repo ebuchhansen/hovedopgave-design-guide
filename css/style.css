@@ -16,8 +16,9 @@ body {
 
 /* Farver */
 .typo-box {
-  padding-bottom: 20px;
-  padding-top: 10px;
+  padding: 15px;
+  border: 1px #000000 solid;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -78,33 +79,33 @@ main {
   transition: 0.4s;
 }
 
-.footer-example {
+.footer {
   width: 100%;
   padding: 60px 30px;
   background-color: #1c2659;
   color: #FFFFFF;
   display: flex;
 }
-.footer-example div {
+.footer div {
   text-align: center;
 }
-.footer-example div h3 {
+.footer div h3 {
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
-.footer-example .col-1 a {
+.footer .col-1 a {
   display: block;
   text-decoration: none;
   color: #FFFFFF;
   margin-bottom: 10px;
 }
-.footer-example .col-2 {
+.footer .col-2 {
   flex-grow: 2;
 }
-.footer-example .col-2 p {
+.footer .col-2 p {
   margin-bottom: 10px;
 }
-.footer-example .col-3 p {
+.footer .col-3 p {
   margin-bottom: 10px;
 }
 
@@ -196,7 +197,7 @@ main {
 }
 
 .grid-boks {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 pre {
@@ -246,4 +247,99 @@ pre {
 .dropdown:hover .dropbtn {
   background-color: #DB9040;
   transition: 0.4s;
+}
+
+.black-cross {
+  font-size: 30px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.white-cross {
+  font-size: 30px;
+  color: #FFFFFF;
+  background-color: #1c2659;
+  width: 35px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.arrows {
+  font-size: 30px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.orange-knap {
+  background-color: #D27411;
+  color: white;
+  padding: 16px 30px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.orange-knap:hover {
+  background-color: #DB9040;
+}
+
+.boks-space {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.icons {
+  font-size: 25px;
+}
+
+.grid-tekst-boks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
+}
+.grid-tekst-boks #text-boks-eks {
+  background-color: #1c2659;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+.grid-tekst-boks #text-boks-eks h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+.grid-tekst-boks #text-boks-eks p {
+  padding: 20px;
+}
+.grid-tekst-boks #info-boks-eks {
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+.grid-tekst-boks #info-boks-eks h3 {
+  text-align: center;
+  padding: 10px;
+  background-color: #1c2659;
+  border-bottom: 2px #FFFFFF solid;
+}
+.grid-tekst-boks #info-boks-eks p {
+  padding: 20px;
+  background-color: #1c2659;
+  opacity: 85%;
+}
+.grid-tekst-boks .arrangement-boks-eks {
+  color: #FFFFFF;
+  background-color: #1c2659;
+  padding: 10px;
+}
+.grid-tekst-boks .arrangement-boks-eks #arragement-bil {
+  background-color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+ul li a {
+  display: block;
 }

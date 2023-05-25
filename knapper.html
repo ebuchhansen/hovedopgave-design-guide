@@ -36,41 +36,51 @@
 
         <h1 class="side-titel">Knapper</h1>
 
-        <div>
+        <div class="grid-boks">
             <h2>Orange knap</h2>
-            <button>Knap</button>
+            <button class="orange-knap">Knap</button>
             <p>Bruges som shortcut til andre sider, samt call to action ved købsmuligheder.</p>
             
             <pre>
-
-            </pre>
+&lt;button class="orange-knap"&gt;#&lt;/button&gt;
+</pre>
         </div>
 
-        <div>
+        <div class="boks-space">
             <h2>Frem og tilbage knap</h2>
             <p>Bruges til at klikke sig frem og tilbage i kalenderen.</p>
         
-            <pre>
+            <div class="arrows">&nbsp;ᐸ &nbsp;&nbsp; ᐳ</div>
 
-            </pre>
+            <pre>
+&lt;div class="arrows"&gt;ᐸ&lt;/div&gt;
+&lt;div class="arrows"&gt;ᐳ&lt;/div&gt;
+</pre>
         </div>
 
-        <div>
+        <div class="boks-space">
             <h2>Kryds</h2>
             <p>Bruges til at lukke pop-up ned.</p>
-        
+
+            <div class="white-cross">✖</div>
+            <p>Det hvide kryds bruges til mørke baggrunde.</p>
+
             <pre>
+&lt;div class="white-cross"&gt;✖&lt;/div&gt;</pre>
+        
 
-            </pre>
-        </div>
+            <div class="black-cross">✖</div>
+            <p>Det sorte kryds bruges til lyse baggrunde.</p>
+            <pre>
+&lt;div class="black-cross"&gt;✖&lt;/div&gt;
+</pre>
+</div>
 
-        <div>
-            
+        <div class="boks-space">   
             <div>
                 <h2>Dropdown</h2>
                 <p>Bruges i menuen ved undersider.</p>
-            </div>
-            
+            </div> 
             <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
@@ -79,7 +89,6 @@
                     <a href="#">Link 3</a>
                 </div>
             </div>
-
             <pre>
 &lt;div class="dropdown"&gt;
     &lt;button class="dropbtn">Dropdown&lt;/button&gt;

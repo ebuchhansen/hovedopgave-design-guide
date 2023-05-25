@@ -280,8 +280,9 @@ pre {
 .orange-knap {
   background-color: #D27411;
   color: white;
-  padding: 16px 30px;
+  padding: 10px 20px;
   font-size: 16px;
+  border-radius: 5px;
   text-align: center;
   display: inline-block;
   border: none;
@@ -364,4 +365,24 @@ pre {
   background-color: #1c2659;
   width: 100%;
   text-align: center;
+}
+
+.grid-medlem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.grid-medlem #medlem {
+  background-color: #1c2659;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.grid-medlem #medlem h2 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.grid-medlem #medlem h3 {
+  padding: 5px 0;
 }

@@ -365,15 +365,23 @@ pre {
 
     }
 
+
+
+}
+.grid-tekst-boks2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 5px;
+
     .arrangement-boks-eks {
         color: #FFFFFF;
         background-color: #1c2659;
         padding: 10px;
+        grid-template-columns: 1fr 2fr;
         #arragement-bil {
             background-color: #FFFFFF;
         }
     }
-
 }
 
 .menu-knap {

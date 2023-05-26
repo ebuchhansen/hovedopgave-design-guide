@@ -335,12 +335,19 @@ pre {
   background-color: #1c2659;
   opacity: 85%;
 }
-.grid-tekst-boks .arrangement-boks-eks {
+
+.grid-tekst-boks2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 5px;
+}
+.grid-tekst-boks2 .arrangement-boks-eks {
   color: #FFFFFF;
   background-color: #1c2659;
   padding: 10px;
+  grid-template-columns: 1fr 2fr;
 }
-.grid-tekst-boks .arrangement-boks-eks #arragement-bil {
+.grid-tekst-boks2 .arrangement-boks-eks #arragement-bil {
   background-color: #FFFFFF;
 }
 

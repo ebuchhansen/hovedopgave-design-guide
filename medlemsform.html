@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="medlem.js" defer></script>
     <title>Medlemsformular</title>
 </head>
 <body>
@@ -39,14 +40,32 @@
         <div class="grid-medlem">
             <div id="medlem">
                 <h2>Bliv medlem</h2>
-                <h3>Månedligt beløb</h3>
                 
-                <h3>Antal personer i husstanden</h3>
-                <h3>Navn</h3>
-                <h3>Telefon</h3>
-                <h3>Post nummer</h3>
+                <h3>Månedligt beløb</h3>
+                <input class="tekstfelt" id="amount">
 
-                <button class="orange-knap">Tilmeld</button>
+                <h3>Antal personer i husstanden</h3>
+                <input class="tekstfelt" id="number">
+
+                <h3>Navn</h3>
+                <input class="tekstfelt" id="name">
+                
+                <h3>Mobil</h3>
+                <input class="tekstfelt" id="phone">
+ 
+                <h3>E-mail</h3>
+                <input class="tekstfelt" id="email">
+ 
+                <h3>Post nr.</h3>
+                <input class="tekstfelt" id="post">
+       
+
+                <div class=""></div>
+
+                <button class="orange-knap" onclick="myFunction()">Tilmeld</button>
+       
+
+
 
             </div>
             <div>

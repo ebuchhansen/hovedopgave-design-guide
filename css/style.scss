@@ -440,17 +440,20 @@ ul {
 }
 
 .month {
-    padding: 70px 25px;
+    padding: 30px 25px;
     width: 100%;
-    background: #1abc9c;
+    background-color: #FFFFFF;
     text-align: center;
+    border: 3px #D27411 solid;
+    border-bottom: 0;
+    border-radius: 15px 15px 0 0;
     
     ul {
         margin: 0;
         padding: 0;
     
         li {
-            color: white;
+            color: #000000;
             font-size: 20px;
             text-transform: uppercase;
             letter-spacing: 3px;
@@ -460,11 +463,13 @@ ul {
     .prev {
         float: left;
         padding-top: 10px;
+        color: #D27411;
     }
 
     .next {
         float: right;
         padding-top: 10px;
+        color: #D27411;
     }
 
 }
@@ -473,11 +478,13 @@ ul {
 .weekdays {
     margin: 0;
     padding: 10px 0;
-    background-color: #ddd;
+    background-color: #FFFFFF;
+    border-left: 3px #D27411 solid;
+    border-right: 3px #D27411 solid;
 
     li {
         display: inline-block;
-        width: 13.6%;
+        width: 13.5%;
         color: #666;
         text-align: center;
     }
@@ -487,6 +494,9 @@ ul {
     padding: 10px 0;
     background: #eee;
     margin: 0;
+    border: 3px #D27411 solid;
+    border-top: 0;
+    border-radius: 0 0 15px 15px;
 
     li {
         list-style-type: none;

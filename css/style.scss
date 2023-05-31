@@ -67,6 +67,14 @@ main {
     padding: 15px 25px;
 }
 
+#bronx-logo {
+    height: 50px;
+}
+
+#baggrund{
+    width: 100%;
+}
+
 .grid-item {
     display: flex;
     align-items: center;
@@ -263,9 +271,7 @@ pre {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    p {
-        font: 400 15px "Roboto Condensed", sans-serif;
-    }
+    font: 400 15px "Roboto Condensed", sans-serif;
 }
   
 .dropdown {

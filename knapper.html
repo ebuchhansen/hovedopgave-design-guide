@@ -20,16 +20,16 @@
 
     <nav>
         <div class="btn-group">
-            <a href="farver.html"><button>Farver</button></a>
-            <a href="typografi.html"><button>Typografi</button></a>
-            <a href="grid.html"><button>Grid</button></a>
-            <a href="knapper.html"><button>Knapper</button></a>
-            <a href="bokse.html"><button>Bokse</button></a>
-            <a href="navmenu.html"><button>Navigations menu</button></a>
-            <a href="footer.html"><button>Footer</button></a>
-            <a href="medlemsform.html"><button>Medlemsformular</button></a>
-            <a href="kalender.html"><button>Kalender</button></a>
-        </div>   
+            <a href="farver.html" class="button">Farver</a>
+            <a href="typografi.html" class="button">Typografi</a>
+            <a href="grid.html" class="button">Grid</a>
+            <a href="knapper.html" class="button">Knapper</a>
+            <a href="bokse.html" class="button">Bokse</a>
+            <a href="navmenu.html" class="button">Navigations menu</a>
+            <a href="footer.html" class="button">Footer</a>
+            <a href="medlemsform.html" class="button">Medlemsformular</a>
+            <a href="kalender.html" class="button">Kalender</a>
+        </div>  
     </nav>
 
     <main>
@@ -38,9 +38,11 @@
 
         <div class="grid-boks">
             <h2>Orange knap</h2>
-            <button class="orange-knap">Knap</button>
-            <p>Bruges som shortcut til andre sider, samt call to action ved købsmuligheder.</p>
             
+            <p>Bruges som shortcut til andre sider, samt call to action ved købsmuligheder.</p>
+            <div class="small-space"></div>
+            <button class="orange-knap">Knap</button>
+            <div class="small-space"></div>
             <pre>
 &lt;button class="orange-knap"&gt;#&lt;/button&gt;
 </pre>
@@ -49,9 +51,9 @@
         <div class="boks-space">
             <h2>Frem og tilbage knap</h2>
             <p>Bruges til at klikke sig frem og tilbage i kalenderen.</p>
-        
+            <div class="small-space"></div>
             <div class="arrows">&nbsp;ᐸ &nbsp;&nbsp; ᐳ</div>
-
+            <div class="small-space"></div>
             <pre>
 &lt;div class="arrows"&gt;ᐸ&lt;/div&gt;
 &lt;div class="arrows"&gt;ᐳ&lt;/div&gt;
@@ -61,16 +63,19 @@
         <div class="boks-space">
             <h2>Kryds</h2>
             <p>Bruges til at lukke pop-up ned.</p>
+            <div class="small-space"></div>
+            
 
-            <div class="white-cross">✖</div>
             <p>Det hvide kryds bruges til mørke baggrunde.</p>
-
+            <div class="small-space"></div>
+            <div class="white-cross">✖</div>
+            <div class="small-space"></div>
             <pre>
 &lt;div class="white-cross"&gt;✖&lt;/div&gt;</pre>
         
-
-            <div class="black-cross">✖</div>
+            <div class="boks-space"></div>
             <p>Det sorte kryds bruges til lyse baggrunde.</p>
+            <div class="black-cross">✖</div>
             <pre>
 &lt;div class="black-cross"&gt;✖&lt;/div&gt;
 </pre>
@@ -79,7 +84,10 @@
         <div class="boks-space">   
             <div>
                 <h2>Dropdown</h2>
+                <div class="small-space"></div>
                 <p>Bruges i menuen ved undersider.</p>
+            <div class="small-space"></div>
+
             </div> 
             <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
@@ -89,6 +97,8 @@
                     <a href="#">Link 3</a>
                 </div>
             </div>
+            <div class="small-space"></div>
+
             <pre>
 &lt;div class="dropdown"&gt;
     &lt;button class="dropbtn">Dropdown&lt;/button&gt;

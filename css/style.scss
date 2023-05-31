@@ -43,7 +43,7 @@ h2 {
 }
 
 p {
-    font: 400 15px "Roboto Condensed", sans-serif;
+    font: 400 15px "Montserrat", sans-serif;
 }
 
 header,
@@ -77,7 +77,7 @@ main {
     a {
         text-decoration: none;
     }
-    button {
+    .button {
         background-color:#D27411;
         color: #FFFFFF;
         padding: 10px 24px;
@@ -87,6 +87,7 @@ main {
         cursor: pointer;
         display: block;
         font-family: "Roboto Condensed";
+        text-align: center;
     }
     
 
@@ -227,6 +228,23 @@ main {
 
 }
 
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    background-color: #1c2659;
+    padding: 10px;
+    margin-top: 5px;
+
+    div {
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+}
+
 .grid-boks {
     margin-bottom: 30px;
 }
@@ -326,6 +344,11 @@ pre {
     margin-bottom: 30px;
 }
 
+.small-space {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .icons {
     font-size: 25px;
 }
@@ -381,6 +404,7 @@ pre {
         grid-template-columns: 1fr 2fr;
         #arragement-bil {
             background-color: #FFFFFF;
+            width: 100%;
         }
     }
 }
@@ -410,7 +434,7 @@ pre {
 
 .grid-medlem {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     gap: 10px;
 
     #medlem {

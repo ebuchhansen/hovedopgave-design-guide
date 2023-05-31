@@ -32,7 +32,7 @@ h2 {
 }
 
 p {
-  font: 400 15px "Roboto Condensed", sans-serif;
+  font: 400 15px "Montserrat", sans-serif;
 }
 
 header,
@@ -65,7 +65,7 @@ main {
 .btn-group a {
   text-decoration: none;
 }
-.btn-group button {
+.btn-group .button {
   background-color: #D27411;
   color: #FFFFFF;
   padding: 10px 24px;
@@ -75,6 +75,7 @@ main {
   cursor: pointer;
   display: block;
   font-family: "Roboto Condensed";
+  text-align: center;
 }
 .btn-group :not(:last-child) {
   border-bottom: none;
@@ -201,6 +202,20 @@ main {
   padding: 10px;
 }
 
+.grid-container4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  background-color: #1c2659;
+  padding: 10px;
+  margin-top: 5px;
+}
+.grid-container4 div {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+
 .grid-boks {
   margin-bottom: 30px;
 }
@@ -300,6 +315,11 @@ pre {
   margin-bottom: 30px;
 }
 
+.small-space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .icons {
   font-size: 25px;
 }
@@ -350,6 +370,7 @@ pre {
 }
 .grid-tekst-boks2 .arrangement-boks-eks #arragement-bil {
   background-color: #FFFFFF;
+  width: 100%;
 }
 
 .menu-knap {
@@ -377,7 +398,7 @@ pre {
 
 .grid-medlem {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto;
   gap: 10px;
 }
 .grid-medlem #medlem {
